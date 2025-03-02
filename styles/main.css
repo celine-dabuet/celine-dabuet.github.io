@@ -19,6 +19,12 @@ a:hover {
   color: #fdfdfd;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*-------------------------NAVIGATION-------------------------*/
 nav {
   background-color: #ffeae4;
@@ -28,7 +34,7 @@ nav {
   width: 100%;
   padding: 3% 3%;
   border-bottom: solid;
-  border-color: #aaaae6;
+  border-color: #ebf593;
   margin-bottom: 5%;
 }
 
@@ -41,9 +47,6 @@ nav {
 }
 
 .nav-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; /*added zero to margin and padding to remove default settings*/
   text-transform: uppercase;
   font-family: Lucida Console;
   font-size: 1em;
@@ -74,15 +77,21 @@ nav {
   text-align: center;
 }
 
+.home-img {
+  width: 100%;
+  height: auto;
+}
+
 /*-------------------------FOOTER-------------------------*/
+/*ISSUE TO FIX: footer showing white space at the bottom*/
 footer {
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
 }
 
 .footer-div {
-  background-color: #e4ec9a;
+  background-color: #ebf593;
   padding: 5% 5%;
   margin-top: auto;
 }
@@ -104,6 +113,10 @@ footer {
 @media only screen and (min-width: 800px) {
   .footer-penguin {
     width: 80px;
+  }
+
+  .home-img {
+    width: 40vw;
   }
 }
 
