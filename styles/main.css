@@ -73,6 +73,9 @@ nav {
 .footer-div {
   background-color: #e4ec9a;
   padding: 5% 5%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .footer-p {
