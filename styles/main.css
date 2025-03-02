@@ -1,3 +1,47 @@
+/*ALL*/
+
 body {
-  background-color: peachpuff;
+  background-color: #ffeae4;
+  font-size: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #e0ea87;
+}
+
+/*NAVIGATION*/
+.nav-table {
+  width: 100%;
+  padding: 3% 3%;
+}
+
+.blog-title {
+  font-family: 'Silkscreen';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6em;
+  color: #df6ca2;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; /*added zero to margin and padding to remove default settings*/
+  text-transform: uppercase;
+  font-family: Lucida Console;
+  font-size: 1em;
+}
+
+.nav-li {
+  float: right;
+}
+
+.nav-a {
+  display: block;
+  padding: 8px;
+  color: #ff9477;
 }
