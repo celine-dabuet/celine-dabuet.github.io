@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Code Celine | Positionings: Relative, Absolute and Fixed</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+
+    <!--logo font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <table class="nav-table">
+          <tr>
+            <td class="blog-title">Code Celine</td>
+            <td>
+              <ul class="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="projects.html">Projects</a></li>
+                <li class="nav-li"><a class="nav-a" href="reflections.html">Reflections</a></li>
+                <li class="nav-li"><a class="nav-a" href="about.html">About</a></li>
+                <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+              </ul>
+            </th>
+          </tr>
+        </table>
+      </nav>
+    </header>
+    <section class="main-body">
+      <div class="div-body">
+        <h1 class="div-header">Positionings: Relative, Absolute and Fixed</h1>
+        <p>Firstly, it's important to know that all elements on the web page are pixel blocks (imagine literal square-shapes) and they have a default positioning on them called 'static.' This means that each element that is placed on the web browser follows the natural flow of the elements depending on the conditions of the browser. Where it gets interesting is when the relative, absolute and fixed positions are selected.</p>
+        <img src="styles/relative-before.png" alt="static positioning example">
+        <p>(Source: w3schools.com on "CSS Layout - The position Property")</p>
+        <h2>Relative Positioning</h2>
+        <p>Elements with the relative positioning are moved (together with the top, left bottom, left and/or right properties) relative to its original position. For example, the div element shown above have been pushed to the right because it the left side of the element has been filled with 100 pixels: </p>
+        <img src="styles/relative-after.png" alt="relative positioning example">
+        <p>(Source: w3schools.com on "CSS Layout - The position Property")</p>
+        <h2>Absolute Positioning</h2>
+        <p>Absolute positioned elements moves relative to the nearest positioned ancestor. Breaking down that sentence, let's say a square shaped container has been placed in the web, and within that container, a circle has been placed inside. The square share is the ancestor, and the circle is the descendant. In this scenario, the circle will move relative to its position within the square. If the element is not within an ancestor container, it treats the body of the webpage as its ancestor by default which can visually break from the natural flow of the web page. Working with the exisitng example from w3schools, we have filled the top part of the small box with 80 pixels, and its left side with 250 pixels. That's the key thing when using the top, left, bottom and right properties is that, it visually moves the elements <i>opposite</i> to what we've input. In the same example, we can see how it 'breaks' from the natural flow of elements because it has visually moved outside its ancestor container.</p>
+        <img src="styles/absolute.png" alt="absolute positioning example">
+        <p>(Source: w3schools.com on "CSS Layout - The position Property")</p>
+        <h2>Fixed Positioning</h2>
+        <p>A fixed element is placed and, as its name suggests, permanently stays relative to the device's screen. With this positioning property, instead of the fixed element moving relative to the ancestor, it moves based on the visible screen. As seen in the second picture below, I have made the viewing screen smaller and you can see that part of the fixed element has overlapped with the other elements on the browser.</p>
+        <img src="styles/fixed.png" alt="fixed positioning example">
+        <img src="styles/fixed2.png" alt="second fixed positioning example">
+        <p>(Source: w3schools.com on "CSS Layout - The position Property")</p>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-div">
+        <img class="footer-penguin" src="styles/penguin-logo.png" alt="sleeping penguin">
+        <p class="footer-p">Coding with DevAcademy | Karengo 2025 | Web design by Celine Dabuet</p> 
+      </div>
+    </footer>
+  </body>
+</html>
