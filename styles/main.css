@@ -1,11 +1,12 @@
 /*-------------------------ALL-------------------------*/
 
 body {
-  background-color: #ffeae4;
+  background-color: white;
   font-size: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
   margin: 0;
+  padding: 0;
   color: #434343;
 }
 
@@ -19,9 +20,15 @@ a:hover {
 }
 
 /*-------------------------NAVIGATION-------------------------*/
+nav {
+  background-color: #ffeae4;
+}
+
 .nav-table {
   width: 100%;
   padding: 3% 3%;
+  border-bottom: solid;
+  border-color: #aaaae6;
 }
 
 .blog-title {
@@ -66,7 +73,6 @@ a:hover {
 .footer-div {
   background-color: #e4ec9a;
   padding: 5% 5%;
-  margin-top: 5%;
 }
 
 .footer-p {
