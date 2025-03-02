@@ -10,11 +10,6 @@ body {
   color: #434343;
 }
 
-a:link {
-  text-decoration: none;
-  color: #434343;
-}
-
 a:hover {
   background-color: #aaaae6;
   color: #fdfdfd;
@@ -53,8 +48,9 @@ nav {
   font-size: 1em;
 }
 
-.nav-li {
+.nav-li a:link {
   float: right;
+  text-decoration: none;
 }
 
 .nav-a {
@@ -83,11 +79,14 @@ nav {
   height: auto;
 }
 
-#static-example {
-  margin: 0 350px 0 350px;
-  padding: 50px;
-  background-color: #df6ca2;
-  position: static;
+a.projects-links {
+  text-decoration: underline;
+  color: #434343;
+}
+
+a.projects-links:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /*-------------------------FOOTER-------------------------*/
