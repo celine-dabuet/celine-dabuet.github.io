@@ -29,6 +29,7 @@ nav {
   padding: 3% 3%;
   border-bottom: solid;
   border-color: #aaaae6;
+  margin-bottom: 5%;
 }
 
 .blog-title {
@@ -69,13 +70,15 @@ nav {
   text-align: center;
 }
 
+.div-body {
+  text-align: center;
+}
+
 /*-------------------------FOOTER-------------------------*/
 .footer-div {
   background-color: #e4ec9a;
   padding: 5% 5%;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
+  margin-top: 5%;
 }
 
 .footer-p {
