@@ -75,10 +75,16 @@ nav {
 }
 
 /*-------------------------FOOTER-------------------------*/
+footer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-div {
   background-color: #e4ec9a;
   padding: 5% 5%;
-  margin-top: 5%;
+  margin-top: auto;
 }
 
 .footer-p {
