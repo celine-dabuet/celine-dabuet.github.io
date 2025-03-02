@@ -3,6 +3,7 @@
 body {
   background-color: #ffeae4;
   font-size: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a:link {
@@ -10,7 +11,8 @@ a:link {
 }
 
 a:hover {
-  background-color: #e0ea87;
+  background-color: #c1c1e3;
+  color: #fdfdfd;
 }
 
 /*NAVIGATION*/
@@ -23,7 +25,7 @@ a:hover {
   font-family: 'Silkscreen';
   font-weight: 400;
   font-style: normal;
-  font-size: 1.6em;
+  font-size: 2em;
   color: #df6ca2;
 }
 
@@ -44,4 +46,36 @@ a:hover {
   display: block;
   padding: 8px;
   color: #ff9477;
+}
+
+/*FOOTER*/
+.footer-div {
+  background-color: #e4ec9a;
+  padding: 5% 5%;
+}
+
+.footer-p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: 600;
+  color: #434343;
+}
+
+.footer-penguin {
+  /*create media query to set max size & min size of penguin*/
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width: 800px) {
+  .footer-penguin {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-penguin {
+    width: 55px;
+  }
 }
