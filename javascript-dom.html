@@ -32,8 +32,59 @@
     </header>
     <section class="main-body">
       <h1 class="div-header">JavaScript DOM</h1>
-      <h4>Add here header</h4>
-      <p class="main-body">Add here the body<p>
+      <h4>The relationship of JavaScript, HTML & CSS</h4>
+      <p class="main-body">The websites we visit on a daily basis is built from three main coding languages: HTML, CSS and JavaScript. In simple terms, we can compare the process of creating a website to building a house. HTML can be described like the basic structure of a house – the foundation, house framing, walls, roof, windows and doors – it provides the basic structure to the website. This can be the main header or title of the website, the menu and the main body of the website which contains text or images. CSS is best compared to the furniture and interior design of a house as CSS provides colour, shape and style to the basic structure of HTML. Lastly, we have JavaScript that is like the electrical, plumbing, ventilation and security of a house. It gives the website functionality and dynamic interaction such as the ability to log in, put products in a wish list or automatically playing videos when scrolling through social media. <p>
+
+      <h4>Control Flow & Loops - If our everyday life was coded</h4>
+      <p class="main-body">Control flow is a sequence in which the computer reads the code it is given. The default flow is from left-to-right and top-to-bottom. The flow of execution of done via control structures which are blocks of code that are completed when certain conditions are met. For example, a control structure that we encounter in everyday life is when we are catching the train with a Snapper card. Our everyday commute will flow like:<p>
+        <ol class="main-body">
+          <li>Do I have my Snapper card? If yes, go to the next step. If no, I should work from home.</li>
+          <li>Do I have enough money in my Snapper card to tag on? If yes, go to the next step. If no, then top-up Snapper card via a kiosk.</li>
+          <li>Have I tagged on? If yes, wait for train to arrive. If no, find a kiosk to tag on.</li>
+          <li>Have I tagged off? If yes, proceed with life. If no, find a kiosk to tag on.</li>
+        </ol>
+        <p class="main-body">There are many control structures in JavaScript and the above example can be classified as conditional statements because the code can only flow if certain conditions are met. Another type of a control structure is a loop where a code can keep cycling over and over again (including forever but this would render a website unusable) until it reaches a condition for it to stop. An example of a loop in everyday life is when we go through the self-check-out at a supermarket with 5 items. Our experience at the self-check-out will be like:</p>
+        <ol class="main-body">
+          <li>Pick up first item from shopping basket.</li>
+          <li>Find barcode of product.</li>
+          <li>Scan barcode at the kiosk.</li>
+          <li>Place product in our cute reusable bag.</li>
+          <li>Repeat steps 1 to 4 until all 5 items have been scanned.</li>
+        </ol>
+        <p class="main-body">As seen above, loops will keep going until the ending condition is met.</p>
+
+      <h4>The DOM & DevTools</h4>
+      <p class="main-body">DOM stands for Document Object Model, and it is a programming interface that is accessed by programming languages like JavaScript to create a dynamic and interactive web browser experience. The structure of the DOM is like a hierarchical tree, with the  window object (the window in which the website is displayed) at the very top of the hierarchy, and the next level down is the document object (contains all the code that make up the website – the DOM). This means that the window itself, including when it gets resized or window features like the scrollbar, are accessible to be changed or modified. All the code that make up a website element (HTML), text, attributes and comments – are called nodes and these represent the branches to the hierarchical tree. Using the DOM with JavaScript, nodes can be modified, created or removed. Additionally, there can also be events which 'listens' for user interactions with the website such as using the mouse, keyboard, window, and media use to name a few. <p>
+
+      <h4>Data in Arrays vs Objects</h4>
+      <p class="main-body">Arrays in code are containers for lists of items and it's important to note that they are listed in a specific order. Items in an array are accessible via calling their index number. In code, the first number of the item is not 'one' but instead it is 'zero'. 'Zero' is treated as an actual number that takes space in code rather than it being perceived usually as empty or null. So if you want to access the third item in an array list, we are actually accessing item two because if we count "0, 1, 2," the third item in the list is number two. For example, we can treat gym lockers as an array because they are numbered and within each locker contains an item. Imagine you store your belongings in locker number 38. When you retrieve your items again, you will of course go to locker number 38 and not another random locker. In summary, items in arrays are listed from zero and is accessible only by calling their index number. <p>
+
+      <p class="main-body">Objects are containers for pairs of items which make up the properties of the object. Additionally, in comparison to arrays, the order of the pair of items is irrelevant to how data is accessed. I say pairs because each item has a 'key' or identifier, and that 'key' is assigned a value. For example, we adopted a puppy. The properties of our puppy are:<p>
+        <table class="table-border">
+          <tr>
+            <th class="table-border">Key</th>
+            <th class="table-border">Value</th>
+          </tr>
+          <tr>
+            <td class="table-border">Name</td>
+            <td class="table-border">Shadow</td>
+          </tr>
+          <tr>
+            <td class="table-border">Breed</td>
+            <td class="table-border">Sharpei</td>
+          </tr>
+          <tr>
+            <td class="table-border">Colour</td>
+            <td class="table-border">Brown</td>
+          </tr>
+          <tr>
+            <td class="table-border">Personality</td>
+            <td class="table-border">Cowardly</td>
+          </tr>
+        </table>
+        <p class="main-body">The properties of an object are accessible via calling the key of the pair. If we want to know what breed Shadow is, we call the key 'Breed.' In summary, data in objects are made up of a key and assigned value, and these are accessible when we call the key.</p>
+      <h4>Functions - How they save developer lives</h4>
+      <p class="main-body">Functions are blocks of code to do a specific task and can reused as many times as desired. Functions can be compared to useful everyday items like a scissor. A scissor is made specifically for cutting things and can be reused many times. Or a car, which its sole purpose is to get you from A to B. As the name suggests, a function is a block of code that was created to achieve a specific goal. It can take inputs, perform actions and return outputs. Functions save developer lives by eliminating the need to re-write code over and over again! By creating it once, the function can be called as many times as needed which saves developers time and effort; it also makes the code cleaner and easier to understand by not having redundant code. <p>
 
     </section>
     <footer>
