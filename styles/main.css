@@ -107,6 +107,10 @@ a.projects-links:hover {
   color: #ff9477;
 }
 
+.body-ul {
+  list-style-type: square;
+}
+
 /*-------------------------FOOTER-------------------------*/
 /*ISSUE TO FIX: footer showing white space at the bottom*/
 footer {
