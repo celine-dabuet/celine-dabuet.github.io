@@ -98,6 +98,15 @@ a.projects-links:hover {
   margin: auto;
 }
 
+.external-link {
+  text-transform: uppercase;
+  font-family: Lucida Console;
+  font-size: 1em;
+  display: block;
+  padding: 8px;
+  color: #ff9477;
+}
+
 /*-------------------------FOOTER-------------------------*/
 /*ISSUE TO FIX: footer showing white space at the bottom*/
 footer {
