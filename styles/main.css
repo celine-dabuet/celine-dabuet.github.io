@@ -111,6 +111,19 @@ a.projects-links:hover {
   list-style-type: square;
 }
 
+/*--Use better-table class for future tables--*/
+.better-table,
+.better-table th,
+.better-table td {
+  border-collapse: collapse;
+  border: 2px solid;
+  width: auto;
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+  font-size: 0.9em;
+}
+
 /*-------------------------FOOTER-------------------------*/
 /*ISSUE TO FIX: footer showing white space at the bottom*/
 footer {
